@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="spacer"></div>
+    <div class="tbl">
+        <div class="tbl-row">
+            <div class="tbl-col"></div>
+            <div class="tbl-col">
+            <form method="GET" id="loginForm">
+                <span id="title">Please login</span>
+                <br/><br/>
+                <b>Email</b>
+                <input type="text" name="email" id="email" />
+                <br/><br/>
+                <b>Passord</b>
+                <input type="text" name="password" id="email" />
+                <br/><br/>
+                <a href="#" id="formSubmit">Submit</a>
+                </form>
+                </div>
+            <div class="tbl-col"></div>
+        <div>
+    </div>
+
+    <script>
+        var button = document.getElementById('formSubmit');
+
+        button.onclick = function () {
+        var form = document.getElementById('loginForm');
+        form.submit();
+        };
+    </script>
+  </body>
+</html>
