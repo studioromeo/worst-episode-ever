@@ -13,7 +13,9 @@ Your challenge is to pick the right amount of feedback to give Bob the best chan
 Good luck!
 
 ## How to enter
-Head to the pull request and turn off comments. Then start commenting! Bob can fix a max of 6 issues in the deployment window otherwise you will run over.
+Head to the [pull request](https://github.com/studioromeo/worst-episode-ever/pull/1) and turn off comments.
+Then start leaving feedback!
+Bob can fix a max of 6 issues in the deployment window otherwise you will run over.
 
 ## Why?
 We often use code reviews to raise the quality of each others code. Most of the time however we don't have the luxury of being able to make each others code perfect. Deadlines, politics, morale all get in the way of this process and it's often a balancing act between quality and quantity.
